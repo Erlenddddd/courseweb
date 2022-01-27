@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+@import url(//fonts.googleapis.com/css?family=Comfortaa);
 * {
-    font-family: 'Dongle', sans-serif;
+  font-family: 'Comfortaa', comfortaa;
 }
 body {
       background-color: white;
