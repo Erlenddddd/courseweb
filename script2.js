@@ -1,18 +1,7 @@
-// Wrap every letter in a span
-var textWrapper = document.querySelector('.maintext');
-textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
-
-anime.timeline({loop: true})
-  .add({
-    targets: '.maintext .letter',
-    opacity: [0,1],
-    easing: "easeInOutQuad",
-    duration: 2250,
-    delay: (el, i) => 150 * (i+1)
-  }).add({
-    targets: '.maintext',
-    opacity: 0,
-    duration: 1000,
-    easing: "easeOutExpo",
-    delay: 1000
-  });
+var string = "This is another text with JS";
+var str = string.split("");
+var el = document.getElementById('str');
+(function animate() {
+str.length > 0 ? el.innerHTML += str.shift() : clearTimeout(running); 
+var running = setTimeout(animate, 90);
+})();
