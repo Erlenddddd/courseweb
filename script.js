@@ -1,8 +1,7 @@
-function click() {
-    document.getElementById("links").classList.toggle("linksactive");
-    document.getElementById("line1").classList.toggle("line1active");
-    document.getElementById("line2").classList.toggle("line2active");
-    document.getElementById("line3").classList.toggle("line3active");
-  }
-  
-  document.getElementById("burger").addEventListener("click", click);
+var string = "This is another text with JS";
+var str = string.split("");
+var el = document.getElementById('str');
+(function animate() {
+str.length > 0 ? el.innerHTML += str.shift() : clearTimeout(running); 
+var running = setTimeout(animate, 90);
+})();
