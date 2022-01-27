@@ -1,7 +1,10 @@
-.body {
-    background-color:white;
-    font-family: Arial, Helvetica, sans-serif;
+@import url(//fonts.googleapis.com/css?family=Comfortaa);
+* {
+  font-family: 'Comfortaa', comfortaa;
 }
+body {
+      background-color: white;
+  }
 
 .maintext {
     text-align:center;
