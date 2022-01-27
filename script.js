@@ -12,4 +12,4 @@ var running = setTimeout(animate, 90);
         var last = text.pop();
         return text.join(" ") + (text.length > 0 ? " <span style='color: red;'>" + last + "</span>" : last);
       });
-  }, 2550);
+  }, 3550);
