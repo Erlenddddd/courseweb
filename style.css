@@ -15,7 +15,9 @@ body {
 .maintext span {
     color:orangered;
     font-weight:bold;
-    text-decoration:none;
+}
+a:maintext {
+    text-decoration: none!important;
 }
 
 .mark {
