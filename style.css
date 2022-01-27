@@ -10,11 +10,13 @@ body {
     text-align:center;
     padding-top:300px;
     font-size:30px;
+    text-decoration: none!important;
 }
 
 .maintext span {
     color:orangered;
     font-weight:bold;
+    text-decoration: none!important;
 }
 a:maintext {
     text-decoration: none!important;
