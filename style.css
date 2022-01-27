@@ -19,6 +19,7 @@ body {
 
 .maintext a {
     text-decoration: none!important;
+    border-bottom: solid 2px blue;
     color:orangered;
 }
 
