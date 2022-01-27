@@ -17,6 +17,12 @@ body {
     font-weight:bold;
 }
 
+.maintext span hover {
+    transition: color 0,3s;
+    color:grey;
+
+}
+
 .maintext a {
     text-decoration: none!important;
     color:orangered;
