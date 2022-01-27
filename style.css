@@ -29,3 +29,31 @@ body {
     width:50px;
     margin:10px;
   }
+
+  .line1 {
+    transition: transform 0.5s ease;
+  }
+  
+  .line1active {
+    transform: rotate(-45deg) translate(-13px,8px);
+    transition: transform 0.5s ease;
+  }
+  
+  .line2 {
+    opacity:100;
+    transition: opacity 0.5s ease;
+  }
+  
+  .line2active {
+    opacity:0;
+    transition: opacity 0.5s ease;
+  }
+  
+  .line3 {
+    transition: transform 0.5s ease;
+  }
+  
+  .line3active {
+    transform: rotate(45deg) translate(-12px,-8px);
+    transition: transform 0.5s ease;
+  }
