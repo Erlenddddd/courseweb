@@ -51,3 +51,7 @@ body {
    font-weight: bold;
    background-color: #000;
 }
+
+.changecolor {
+    text-align:center;
+}
