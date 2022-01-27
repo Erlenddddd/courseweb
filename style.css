@@ -21,6 +21,10 @@ body {
     text-align:center;
 }
 
+.summary {
+    text-align:center;
+    color:red;
+}
 
 
   *{
