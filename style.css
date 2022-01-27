@@ -10,12 +10,12 @@ body {
     text-align:center;
     padding-top:300px;
     font-size:30px;
-    text-decoration:none;
 }
 
 .maintext span {
     color:orangered;
     font-weight:bold;
+    text-decoration:none;
 }
 
 .mark {
