@@ -39,7 +39,7 @@ body {
   }
   
   .links a:hover {
-    color:lightblue;
+    color:grey;
     transition:0.5s;
   }
   
