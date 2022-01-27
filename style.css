@@ -17,14 +17,16 @@ body {
     font-weight:bold;
 }
 
+.list {
+    text-align:center;
+}
+
+
+
   *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-    body{
-    background-color: white;
 }
 
     #str {
