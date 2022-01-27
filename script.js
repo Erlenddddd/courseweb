@@ -6,4 +6,6 @@ str.length > 0 ? el.innerHTML += str.shift() : clearTimeout(running);
 var running = setTimeout(animate, 90);
 })();
 
-document.getElementById("colorchange").style.backgroundColor = "red";
+function chBackcolor(color) {
+    document.body.style.background = color;
+ }
